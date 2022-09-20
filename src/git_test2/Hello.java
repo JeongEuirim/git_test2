@@ -11,8 +11,8 @@ public class Hello {
 		this.message = message;
 	}
 
-	public void say() {
-		System.out.println(message);
+	public String say() {
+		return message;
 	}
 
 }
